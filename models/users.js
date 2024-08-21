@@ -8,6 +8,12 @@ const UserSchema = new mongoose.Schema({
         type: String,
         default: "Update your profile to set the delivery address and the address should be valid with pincode!"
     },
+
+    image: { 
+        type: String,
+        default: null
+    },
+    
     orders: {
         type: Number,
         default: 0,
